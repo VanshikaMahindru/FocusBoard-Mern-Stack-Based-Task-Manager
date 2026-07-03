@@ -18,7 +18,7 @@ A full-stack task manager with JWT authentication and priority-based task tracki
 **Database:** MongoDB with Mongoose
 **Auth:** JWT + bcrypt
 
-## Getting Started
+## Set Up
 
 ### Backend
 
@@ -60,7 +60,7 @@ PUT    /api/tasks/:id
 DELETE /api/tasks/:id
 PATCH  /api/tasks/:id/toggle
 ```
-All task routes require an Authorization: Bearer <token> header.
+
 
 
 
